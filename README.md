@@ -1,3 +1,18 @@
+# How to Run Using Docker Compose
+See `docker-compose.yml` for details.  This is a simple example of how to run a container using Docker Compose.
+```bash
+cd app
+docker compose up -d
+docker compose logs -f
+```
+
+App should be running on [port 3000](http://localhost:3000).
+
+Tear it down when you're done.
+```bash
+docker compose down
+```
+
 # Docker Getting Started Tutorial
 
 This tutorial was written with the intent of helping folks get up and running
